@@ -1,0 +1,13 @@
+[SddmGreeterTheme]
+Name=ArcoLinux Futuristic
+Description=Sddm Futuristic
+Author=Guidobelix
+Copyright=(c) 2015 Guidobelix
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=0.4.2
+Website=https://github.com/arcolinux/arcolinux-sddm-futuristic
+Screenshot=preview.jpg
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=arcolinux-futuristic
