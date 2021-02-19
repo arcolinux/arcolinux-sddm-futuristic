@@ -46,6 +46,7 @@ Rectangle {
         Button {
             id: shutdownButton
             color: "#0d0d0d"
+            font.pixelSize: 12
             text: qsTr("Shutdown")
             borderColor: "#333333"
             activeColor: "#0088cc"
@@ -63,6 +64,7 @@ Rectangle {
         Button {
             id: rebootButton
             color: "#0d0d0d"
+            font.pixelSize: 12
             text: qsTr("Reboot")
             border.color: "#333333"
             activeColor: "#0088cc"
