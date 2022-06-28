@@ -26,16 +26,16 @@ Rectangle {
         color: "transparent"
         anchors.fill: parent
 
-        Image {
-            id: background
-            anchors.fill: parent
-            fillMode: Image.PreserveAspectCrop
-            onStatusChanged: {
+        Image  {
+        anchors.fill: parent
+        source: config.background
+        fillMode: Image.PreserveAspectCrop
+        onStatusChanged: {
             if (status == Image.Error && source != config.defaultBackground) {
                 source = config.defaultBackground
             }
         }
-        }
+    }
 
         //Text {
             //color: "#ffffff"
