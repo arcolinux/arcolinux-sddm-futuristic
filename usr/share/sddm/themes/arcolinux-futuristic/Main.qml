@@ -35,6 +35,7 @@ Rectangle {
                 source = config.defaultBackground
             }
         }
+        }
 
         //Text {
             //color: "#ffffff"
