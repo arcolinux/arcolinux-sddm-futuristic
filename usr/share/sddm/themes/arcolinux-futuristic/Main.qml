@@ -30,7 +30,10 @@ Rectangle {
             id: background
             anchors.fill: parent
             fillMode: Image.PreserveAspectCrop
-            source: "images/background.jpg"
+            onStatusChanged: {
+            if (status == Image.Error && source != config.defaultBackground) {
+                source = config.defaultBackground
+            }
         }
 
         //Text {
